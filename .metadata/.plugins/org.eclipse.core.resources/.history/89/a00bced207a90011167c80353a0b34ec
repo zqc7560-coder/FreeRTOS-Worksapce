@@ -1,0 +1,11 @@
+../User/Task/lcd_task.c:24:6:LCDTask_Init	24	static
+../User/Task/lcd_task.c:45:6:vLCDTask	16	static
+../User/Task/lcd_task.c:60:13:BacklightControl	16	static
+../User/Task/lcd_task.c:75:13:Reset	8	static
+../User/Task/lcd_task.c:87:13:SendCommand	16	static
+../User/Task/lcd_task.c:102:13:SendData	16	static
+../User/Task/lcd_task.c:117:13:SetRowRange	24	static
+../User/Task/lcd_task.c:136:13:SetColumnRange	24	static
+../User/Task/lcd_task.c:155:13:ShowImage	16	static
+../User/Task/lcd_task.c:162:13:ShowImage1	8	static
+../User/Task/lcd_task.c:170:13:ShowImage2	8	static

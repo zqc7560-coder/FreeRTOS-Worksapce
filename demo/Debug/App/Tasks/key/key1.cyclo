@@ -1,0 +1,5 @@
+../App/Tasks/key/key1.c:28:6:Key1_Init	1
+../App/Tasks/key/key1.c:40:6:Key1_Scan	1
+../App/Tasks/key/key1.c:45:17:GetTickCallback	1
+../App/Tasks/key/key1.c:50:16:Key1_ReadPinStateCallback	1
+../App/Tasks/key/key1.c:58:13:Key1_ClickedCallback	1

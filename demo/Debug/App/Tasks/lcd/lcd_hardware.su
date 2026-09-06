@@ -1,0 +1,6 @@
+../App/Tasks/lcd/lcd_hardware.c:20:6:LCD_Hardware_Init	24	static
+../App/Tasks/lcd/lcd_hardware.c:47:13:send_command	16	static
+../App/Tasks/lcd/lcd_hardware.c:58:13:send_data_dma	16	static
+../App/Tasks/lcd/lcd_hardware.c:75:6:HAL_SPI_TxCpltCallback	24	static,ignoring_inline_asm
+../App/Tasks/lcd/lcd_hardware.c:90:13:bk_light_control	16	static
+../App/Tasks/lcd/lcd_hardware.c:102:13:reset	8	static

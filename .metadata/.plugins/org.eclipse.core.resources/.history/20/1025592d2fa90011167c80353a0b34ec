@@ -1,0 +1,12 @@
+../User/Task/lcd_task.c:27:6:LCDTask_Init	1
+../User/Task/lcd_task.c:36:6:vLCDTask	1
+../User/Task/lcd_task.c:64:13:BacklightControl	2
+../User/Task/lcd_task.c:79:13:Reset	1
+../User/Task/lcd_task.c:91:13:SendCommand	1
+../User/Task/lcd_task.c:106:13:SendData	1
+../User/Task/lcd_task.c:122:6:HAL_SPI_TxCpltCallback	3
+../User/Task/lcd_task.c:138:13:SetRowRange	1
+../User/Task/lcd_task.c:157:13:SetColumnRange	1
+../User/Task/lcd_task.c:176:13:ShowImage	1
+../User/Task/lcd_task.c:183:13:ShowImage1	1
+../User/Task/lcd_task.c:191:13:ShowImage2	1

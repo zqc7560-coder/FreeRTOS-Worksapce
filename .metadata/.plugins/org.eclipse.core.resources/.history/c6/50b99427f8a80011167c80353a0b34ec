@@ -1,0 +1,2 @@
+../Drivers/key.c:12:6:Key_Init	16	static
+../Drivers/key.c:18:6:Key_Scan	16	static

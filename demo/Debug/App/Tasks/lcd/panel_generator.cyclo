@@ -1,0 +1,5 @@
+../App/Tasks/lcd/panel_generator.c:21:6:PanelGenerator_Repaint	3
+../App/Tasks/lcd/panel_generator.c:73:6:PanelGenerator_Select	3
+../App/Tasks/lcd/panel_generator.c:93:6:PanelGenerator_Deselect	1
+../App/Tasks/lcd/panel_generator.c:99:6:PanelGenerator_UpDownKey	4
+../App/Tasks/lcd/panel_generator.c:144:20:GetWaveformName	5

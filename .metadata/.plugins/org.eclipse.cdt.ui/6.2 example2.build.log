@@ -1,0 +1,17 @@
+13:57:30 **** Incremental Build of configuration Debug for project 6.2 example2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/6.2 example2/FreeRTOS/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "6.2 example2.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\STM 32 Project\FreeRTOS\FreeRTOS Worksapce\6.2 example2\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="6.2 example2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 6.2 example2.elf
+ 
+arm-none-eabi-size  6.2\ example2.elf 
+arm-none-eabi-objdump -h -S 6.2\ example2.elf  > "6.2 example2.list"
+   text	   data	    bss	    dec	    hex	filename
+  19040	     96	   6496	  25632	   6420	6.2 example2.elf
+Finished building: default.size.stdout
+ 
+Finished building: 6.2 example2.list
+ 
+
+13:57:32 Build Finished. 0 errors, 0 warnings. (took 1s.525ms)
+

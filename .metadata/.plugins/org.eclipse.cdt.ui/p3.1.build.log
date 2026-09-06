@@ -1,0 +1,19 @@
+14:49:27 **** Incremental Build of configuration Debug for project p3.1 ****
+make -j16 all 
+arm-none-eabi-gcc "../User/Task/lcd_task.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/FreeRTOS/Inc" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/User/Task" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/Drivers" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/User/Keys" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"User/Task/lcd_task.d" -MT"User/Task/lcd_task.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Task/lcd_task.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/FreeRTOS/Inc" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/User/Task" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/Drivers" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/User/Keys" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/FreeRTOS/Inc" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/User/Task" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/Drivers" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p3.1/User/Keys" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc -o "p3.1.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\STM 32 Project\FreeRTOS\FreeRTOS Worksapce\p3.1\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="p3.1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: p3.1.elf
+ 
+arm-none-eabi-size  p3.1.elf 
+arm-none-eabi-objdump -h -S p3.1.elf  > "p3.1.list"
+   text	   data	    bss	    dec	    hex	filename
+  20396	     96	   6584	  27076	   69c4	p3.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: p3.1.list
+ 
+
+14:49:29 Build Finished. 0 errors, 0 warnings. (took 1s.639ms)
+

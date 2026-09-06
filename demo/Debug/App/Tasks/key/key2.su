@@ -1,0 +1,5 @@
+../App/Tasks/key/key2.c:27:6:Key2_Init	40	static
+../App/Tasks/key/key2.c:39:6:Key2_Scan	8	static
+../App/Tasks/key/key2.c:44:17:GetTickCallback	32	static
+../App/Tasks/key/key2.c:49:16:Key2_ReadPinStateCallback	8	static
+../App/Tasks/key/key2.c:57:13:Key2_PressCallback	16	static

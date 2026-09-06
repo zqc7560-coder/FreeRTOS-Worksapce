@@ -1,0 +1,10 @@
+../App/Tasks/lcd/panel_scale.c:28:6:PanelScale_Repaint	8	static
+../App/Tasks/lcd/panel_scale.c:94:6:PanelScale_Select	4	static
+../App/Tasks/lcd/panel_scale.c:114:6:PanelScale_Deselect	4	static
+../App/Tasks/lcd/panel_scale.c:124:7:GetXScale	4	static
+../App/Tasks/lcd/panel_scale.c:129:7:GetYScale	4	static
+../App/Tasks/lcd/panel_scale.c:134:10:GetXOffset	4	static
+../App/Tasks/lcd/panel_scale.c:139:6:PanelScale_UpDownKey	24	static
+../App/Tasks/lcd/panel_scale.c:164:13:ChangeXScale	24	static
+../App/Tasks/lcd/panel_scale.c:178:13:ChangeYScale	24	static
+../App/Tasks/lcd/panel_scale.c:191:13:ChangeXOffset	32	static

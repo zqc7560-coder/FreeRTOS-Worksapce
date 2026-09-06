@@ -1,0 +1,5 @@
+../App/Tasks/key/key3.c:27:6:Key3_Init	40	static
+../App/Tasks/key/key3.c:39:6:Key3_Scan	8	static
+../App/Tasks/key/key3.c:44:17:GetTickCallback	32	static
+../App/Tasks/key/key3.c:49:16:Key3_ReadPinStateCallback	8	static
+../App/Tasks/key/key3.c:57:13:Key3_PressCallback	16	static

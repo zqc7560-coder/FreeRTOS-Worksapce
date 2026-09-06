@@ -1,0 +1,6 @@
+../App/Tasks/common/waveform_generator.c:22:6:WaveformGenerator_Init	8	static
+../App/Tasks/common/waveform_generator.c:42:6:WaveformGenerator_SetWaveform	16	static
+../App/Tasks/common/waveform_generator.c:58:9:WaveformGenerator_GetWaveform	4	static
+../App/Tasks/common/waveform_generator.c:67:6:WaveformGenerator_SetFrequency	16	static
+../App/Tasks/common/waveform_generator.c:80:7:WaveformGenerator_GetFrequency	4	static
+../App/Tasks/common/waveform_generator.c:88:13:ReloadWaveform	40	static

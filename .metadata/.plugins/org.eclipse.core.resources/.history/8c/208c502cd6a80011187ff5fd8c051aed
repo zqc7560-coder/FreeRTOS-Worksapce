@@ -1,0 +1,18 @@
+/*
+ * buzzer_task.c
+ *
+ *  Created on: Sep 5, 2026
+ *      Author: 23224
+ */
+
+#include "FreeRTOS.h"
+#include "semphr.h"
+
+static SemaphoreHandle_t xBuzzerSemphr;
+
+void Buzzer_Init()
+{
+	xBuzzerSemphr = xSemaphoreCreateBinary();
+}
+void vBuzzerTask(void *pvParameters);
+void Buzzer_Beep();

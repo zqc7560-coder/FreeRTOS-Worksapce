@@ -1,0 +1,12 @@
+../User/Task/lcd_task.c:27:6:LCDTask_Init	8	static
+../User/Task/lcd_task.c:36:6:vLCDTask	32	static
+../User/Task/lcd_task.c:64:13:BacklightControl	16	static
+../User/Task/lcd_task.c:79:13:Reset	8	static
+../User/Task/lcd_task.c:91:13:SendCommand	16	static
+../User/Task/lcd_task.c:106:13:SendData	16	static
+../User/Task/lcd_task.c:122:6:HAL_SPI_TxCpltCallback	24	static,ignoring_inline_asm
+../User/Task/lcd_task.c:138:13:SetRowRange	24	static
+../User/Task/lcd_task.c:157:13:SetColumnRange	24	static
+../User/Task/lcd_task.c:176:13:ShowImage	16	static
+../User/Task/lcd_task.c:183:13:ShowImage1	8	static
+../User/Task/lcd_task.c:191:13:ShowImage2	8	static

@@ -1,0 +1,6 @@
+../App/Tasks/common/jadc.c:55:6:JADC_Init	8	static
+../App/Tasks/common/jadc.c:78:21:JADC_GetResult	48	static
+../App/Tasks/common/jadc.c:88:21:JADC_GetResultFromISR	48	static
+../App/Tasks/common/jadc.c:101:6:HAL_ADCEx_InjectedConvCpltCallback	80	static,ignoring_inline_asm
+../App/Tasks/common/jadc.c:156:24:GetDMMRange	8	static
+../App/Tasks/common/jadc.c:196:14:CalcDMMValue	48	static

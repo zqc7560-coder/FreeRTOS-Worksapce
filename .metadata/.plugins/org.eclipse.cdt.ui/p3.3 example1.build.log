@@ -1,0 +1,10 @@
+16:04:11 **** Incremental Build of configuration Debug for project p3.3 example1 ****
+make -j16 all 
+arm-none-eabi-size  p3.3\ example1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22520	     96	   6672	  29288	   7268	p3.3 example1.elf
+Finished building: default.size.stdout
+ 
+
+16:04:12 Build Finished. 0 errors, 0 warnings. (took 789ms)
+

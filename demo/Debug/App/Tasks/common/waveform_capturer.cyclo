@@ -1,0 +1,11 @@
+../App/Tasks/common/waveform_capturer.c:34:6:WaveformCapture_Init	1
+../App/Tasks/common/waveform_capturer.c:63:6:WaveformCapture_SetRunMode	1
+../App/Tasks/common/waveform_capturer.c:76:9:WaveformCapture_GetRunMode	1
+../App/Tasks/common/waveform_capturer.c:85:14:WaveformCapture_GetBuffer	1
+../App/Tasks/common/waveform_capturer.c:94:10:WaveformCapture_GetBufferLength	1
+../App/Tasks/common/waveform_capturer.c:103:7:WaveformCapture_GetSampleRate	1
+../App/Tasks/common/waveform_capturer.c:112:6:WaveformCapture_SetSampleRateFromXScale	2
+../App/Tasks/common/waveform_capturer.c:125:6:HAL_GPIO_EXTI_Callback	3
+../App/Tasks/common/waveform_capturer.c:154:6:HAL_ADC_ConvCpltCallback	5
+../App/Tasks/common/waveform_capturer.c:197:6:vForceTriggerTimerCallback	2
+../App/Tasks/common/waveform_capturer.c:213:6:vHoldOffTimerCallback	2

@@ -1,0 +1,7 @@
+../User/Task/lcd_task.c:21:6:LCDTask_Init	24	static
+../User/Task/lcd_task.c:36:6:vLCDTask	16	static
+../User/Task/lcd_task.c:72:13:BacklightControl	16	static
+../User/Task/lcd_task.c:87:13:Reset	8	static
+../User/Task/lcd_task.c:99:13:SendCommand	16	static
+../User/Task/lcd_task.c:114:13:SendData	16	static
+../User/Task/lcd_task.c:130:6:HAL_SPI_TxCpltCallback	24	static,ignoring_inline_asm

@@ -1,0 +1,2 @@
+../App/Tasks/lcd_task.c:26:6:vLCDInit	1
+../App/Tasks/lcd_task.c:34:6:vLCDTask	10

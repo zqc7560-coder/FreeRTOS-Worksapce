@@ -1,0 +1,12 @@
+../App/Tasks/lcd/panel_cursor.c:31:6:PanelCursor_Repaint	8	static
+../App/Tasks/lcd/panel_cursor.c:111:6:PanelCursor_Select	4	static
+../App/Tasks/lcd/panel_cursor.c:131:6:PanelCursor_Deselect	4	static
+../App/Tasks/lcd/panel_cursor.c:137:6:PanelCursor_UpDownKey	24	static
+../App/Tasks/lcd/panel_cursor.c:167:8:GetCursorX1	4	static
+../App/Tasks/lcd/panel_cursor.c:172:8:GetCursorX2	4	static
+../App/Tasks/lcd/panel_cursor.c:177:8:GetCursorY1	4	static
+../App/Tasks/lcd/panel_cursor.c:182:8:GetCursorY2	4	static
+../App/Tasks/lcd/panel_cursor.c:187:13:MoveCursorX1	16	static
+../App/Tasks/lcd/panel_cursor.c:195:13:MoveCursorX2	16	static
+../App/Tasks/lcd/panel_cursor.c:202:13:MoveCursorY1	16	static
+../App/Tasks/lcd/panel_cursor.c:209:13:MoveCursorY2	16	static

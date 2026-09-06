@@ -1,0 +1,6 @@
+../App/Tasks/lcd/lcd_hardware.c:20:6:LCD_Hardware_Init	1
+../App/Tasks/lcd/lcd_hardware.c:47:13:send_command	1
+../App/Tasks/lcd/lcd_hardware.c:58:13:send_data_dma	1
+../App/Tasks/lcd/lcd_hardware.c:75:6:HAL_SPI_TxCpltCallback	3
+../App/Tasks/lcd/lcd_hardware.c:90:13:bk_light_control	2
+../App/Tasks/lcd/lcd_hardware.c:102:13:reset	1

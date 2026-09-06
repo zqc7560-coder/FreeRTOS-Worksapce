@@ -1,0 +1,5 @@
+../App/Tasks/key/key4.c:27:6:Key4_Init	40	static
+../App/Tasks/key/key4.c:39:6:Key4_Scan	8	static
+../App/Tasks/key/key4.c:44:17:GetTickCallback	32	static
+../App/Tasks/key/key4.c:49:16:Key4_ReadPinStateCallback	8	static
+../App/Tasks/key/key4.c:57:13:Key4_PressCallback	16	static

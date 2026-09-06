@@ -1,0 +1,9 @@
+../App/Tasks/key/key_up_down.c:33:6:KeyUpDown_Init	40	static
+../App/Tasks/key/key_up_down.c:54:6:KeyUpDown_Scan	8	static
+../App/Tasks/key/key_up_down.c:60:17:GetTickCallback	32	static
+../App/Tasks/key/key_up_down.c:65:16:KeyUp_ReadPinStateCallback	8	static
+../App/Tasks/key/key_up_down.c:70:16:KeyDown_ReadPinStateCallback	8	static
+../App/Tasks/key/key_up_down.c:75:13:KeyUp_PressCallback	8	static
+../App/Tasks/key/key_up_down.c:85:13:KeyDown_PressCallback	8	static
+../App/Tasks/key/key_up_down.c:95:13:KeyUp_LongPressedCallback	16	static
+../App/Tasks/key/key_up_down.c:108:13:KeyDown_LongPressedCallback	16	static
