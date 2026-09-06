@@ -25,21 +25,21 @@ User/Task/lcd_task.o: ../User/Task/lcd_task.c ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/FreeRTOS.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/projdefs.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/portable.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/deprecated_definitions.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/portmacro.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/mpu_wrappers.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/newlib-freertos.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/task.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/list.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/semphr.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/queue.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/task.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/Drivers/lcd.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/Drivers/fp.h
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/projdefs.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/portable.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/deprecated_definitions.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/portmacro.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/mpu_wrappers.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/newlib-freertos.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/task.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/list.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/semphr.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/queue.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/task.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/Drivers/lcd.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/Drivers/fp.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -67,18 +67,18 @@ User/Task/lcd_task.o: ../User/Task/lcd_task.c ../Core/Inc/main.h \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/FreeRTOS.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/projdefs.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/portable.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/deprecated_definitions.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/portmacro.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/mpu_wrappers.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/newlib-freertos.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/task.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/list.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/semphr.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/queue.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/FreeRTOS/Inc/task.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/Drivers/lcd.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/Drivers/fp.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/projdefs.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/portable.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/deprecated_definitions.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/portmacro.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/mpu_wrappers.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/newlib-freertos.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/task.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/list.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/semphr.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/queue.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/FreeRTOS/Inc/task.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/Drivers/lcd.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/Drivers/fp.h:

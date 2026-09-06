@@ -1,5 +1,5 @@
 User/Keys/key_down.o: ../User/Keys/key_down.c \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/Drivers/key.h \
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/Drivers/key.h \
  ../Core/Inc/main.h ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -26,8 +26,8 @@ User/Keys/key_down.o: ../User/Keys/key_down.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/User/Task/buzzer_task.h
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/Drivers/key.h:
+ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/User/Task/buzzer_task.h
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/Drivers/key.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:
@@ -55,4 +55,4 @@ E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/Drivers/key.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p4.1/User/Task/buzzer_task.h:
+E:/STM\ 32\ Project/FreeRTOS/FreeRTOS\ Worksapce/p5.1/User/Task/buzzer_task.h:
