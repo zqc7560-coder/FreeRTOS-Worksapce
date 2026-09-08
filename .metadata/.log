@@ -2142,3 +2142,24 @@ org.eclipse.core.runtime.CoreException: attempt to set description for a project
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-09-06 19:59:53.645
 !MESSAGE Indexed '8.3 example2' (31 sources, 173 headers) in 2.75 sec: 13,884 declarations; 63,503 references; 12 unresolved inclusions; 196 syntax errors; 1,183 unresolved names (1.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-09-07 12:13:23.535
+!MESSAGE Indexed '8.4 example1' (31 sources, 172 headers) in 5.29 sec: 13,778 declarations; 63,274 references; 10 unresolved inclusions; 196 syntax errors; 1,168 unresolved names (1.5%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-09-08 13:02:28.041
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 61 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-09-08 13:02:28.042
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-09-08 13:02:28.045
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 61 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-09-08 13:02:28.046
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-09-08 13:02:28.048
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 61 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2026-09-08 13:02:28.049
+!MESSAGE Existing sessions are:
