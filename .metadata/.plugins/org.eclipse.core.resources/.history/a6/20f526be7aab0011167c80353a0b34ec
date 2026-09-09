@@ -1,0 +1,11 @@
+/*
+ * dmm_lable.c
+ *
+ *  Created on: Sep 8, 2026
+ *      Author: 23224
+ */
+
+void DMMLabel_Repain(void)
+{
+
+}

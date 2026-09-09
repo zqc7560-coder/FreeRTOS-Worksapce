@@ -1,0 +1,30 @@
+23:23:30 **** Incremental Build of configuration Debug for project p6.1 ****
+make -j16 all 
+"E:\STM 32 Project\FreeRTOS\FreeRTOS Worksapce\p6.1\Drivers\lcd_tool.exe"
+> step 1...... Ok!
+> step 2...... Ok! 
+> step 3...... Ok! 
+> step 4...... Ok! 
+> step 5...... 2227649348310817
+Ok! 
+> step 6...... Ok! 
+> step 7...... Ok! 
+
+ 
+arm-none-eabi-gcc "../User/Task/lcd_task.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/FreeRTOS/Inc" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/Task" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/Drivers" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/Keys" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/GUI" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"User/Task/lcd_task.d" -MT"User/Task/lcd_task.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/Task/lcd_task.o"
+arm-none-eabi-gcc "../User/GUI/dmm_lable.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/FreeRTOS/Inc" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/Task" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/Drivers" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/Keys" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/GUI" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"User/GUI/dmm_lable.d" -MT"User/GUI/dmm_lable.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/GUI/dmm_lable.o"
+arm-none-eabi-gcc "../User/dmm.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/FreeRTOS/Inc" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/Task" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/Drivers" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/Keys" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User" -I"E:/STM 32 Project/FreeRTOS/FreeRTOS Worksapce/p6.1/User/GUI" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"User/dmm.d" -MT"User/dmm.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "User/dmm.o"
+arm-none-eabi-gcc -o "p6.1.elf" @"objects.list"  -l:lcd.a -mcpu=cortex-m3 -T"E:\STM 32 Project\FreeRTOS\FreeRTOS Worksapce\p6.1\STM32F103RCTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="p6.1.map" -Wl,--gc-sections -static -L"E:\STM 32 Project\FreeRTOS\FreeRTOS Worksapce\p6.1\Drivers" --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: p6.1.elf
+ 
+arm-none-eabi-size  p6.1.elf 
+arm-none-eabi-objdump -h -S p6.1.elf  > "p6.1.list"
+   text	   data	    bss	    dec	    hex	filename
+  58712	     96	  17648	  76456	  12aa8	p6.1.elf
+Finished building: default.size.stdout
+ 
+Finished building: p6.1.list
+ 
+
+23:23:35 Build Finished. 0 errors, 0 warnings. (took 4s.876ms)
+

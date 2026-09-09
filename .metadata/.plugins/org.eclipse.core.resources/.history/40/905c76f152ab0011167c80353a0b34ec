@@ -1,0 +1,20 @@
+/*
+ * dmm.h
+ *
+ *  Created on: Sep 8, 2026
+ *      Author: 23224
+ */
+
+#ifndef DMM_H_
+#define DMM_H_
+
+typedef struct
+{
+	uint8_t Range;	// 0-50V电压档，1-10V电压档，2-2V电压档，3-1k电阻档，4-10k电阻档，5-100k电阻档，6-1M电阻档
+	float Value;	// 具体测量结果
+} DMMData_t;
+
+void DMM_Init(void);
+DMMData_t DMM_GetData(void);
+
+#endif /* DMM_H_ */

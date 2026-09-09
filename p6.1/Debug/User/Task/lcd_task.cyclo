@@ -1,0 +1,7 @@
+../User/Task/lcd_task.c:22:6:LCDTask_Init	1
+../User/Task/lcd_task.c:37:6:vLCDTask	1
+../User/Task/lcd_task.c:53:13:BacklightControl	2
+../User/Task/lcd_task.c:68:13:Reset	1
+../User/Task/lcd_task.c:80:13:SendCommand	1
+../User/Task/lcd_task.c:95:13:SendData	1
+../User/Task/lcd_task.c:111:6:HAL_SPI_TxCpltCallback	3

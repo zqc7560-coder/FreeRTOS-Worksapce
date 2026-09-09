@@ -1,11 +1,11 @@
-12:01:45 **** Incremental Build of configuration Debug for project demo ****
+14:37:39 **** Incremental Build of configuration Debug for project demo ****
 make -j16 all 
 "E:\STM 32 Project\FreeRTOS\FreeRTOS Worksapce\demo\App\Drivers\lcd_tool.exe"
 > step 1...... Ok!
 > step 2...... Ok! 
 > step 3...... Ok! 
 > step 4...... Ok! 
-> step 5...... 2227649246921007
+> step 5...... 2227649347724586
 Ok! 
 > step 6...... Ok! 
 > step 7...... Ok! 
@@ -37,5 +37,5 @@ Finished building: demo.bin
 Finished building: demo.list
  
 
-12:01:50 Build Finished. 0 errors, 0 warnings. (took 5s.319ms)
+14:37:44 Build Finished. 0 errors, 0 warnings. (took 5s.37ms)
 

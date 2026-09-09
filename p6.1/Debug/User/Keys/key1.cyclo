@@ -1,0 +1,3 @@
+../User/Keys/key1.c:16:6:Key1_Init	1
+../User/Keys/key1.c:24:6:Key1_Scan	1
+../User/Keys/key1.c:29:13:KEY1_ClickedCallback	1
